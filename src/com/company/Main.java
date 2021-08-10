@@ -8,7 +8,7 @@ public class Main {
         int x = 0,k = 2, n = 4;
         int[] arr = {1, 3, 2, 4};
 
-        System.out.println(leastCost(n - 1, k, total, arr, 0));
+        System.out.println(leastCost(n - 1, x, total, arr, 0));
     }
 
     public static int leastCost(int n, int x, int total, int[] arr, int i){
